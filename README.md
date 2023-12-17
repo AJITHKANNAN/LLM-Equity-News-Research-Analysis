@@ -1,1 +1,1 @@
-# LLM_Chatbot
+# LLM Equity News Research Analysis
