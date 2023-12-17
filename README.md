@@ -2,9 +2,13 @@
 
 
 **Features**
+
 * Load URLs to fetch article content.
+  
 * Process the article content through LangChain's UnstructuredURL Loader
+
 * Construct an embedding vector using OpenAI's embeddings and leverage FAISS, a powerful similarity search library, to enable swift and effective retrieval of relevant information
+
 * Interact with the LLM's (Chatgpt) by inputting queries and receiving answers along with source URLs.
 
 **Installation**
@@ -17,6 +21,7 @@
   **cd "Equity News Research Analysis"**
   
 3. Install the required dependencies using pip:
+
   **pip install -r requirements.txt**
 
 4.Set up your OpenAI API key by creating a .env file in the project root and adding your API
@@ -26,6 +31,7 @@
 **Usage/Examples**
 
 * Run the Streamlit app by executing:
+  
 **streamlit run main.py**
 
 * The web app will open in your browser.
@@ -45,7 +51,9 @@ On the sidebar, you can input **URLs** directly.
 **Used following news articles**
 
 https://www.moneycontrol.com/news/business/tata-motors-mahindra-gain-certificates-for-production-linked-payouts-11281691.html
+
 https://www.moneycontrol.com/news/business/tata-motors-launches-punch-icng-price-starts-at-rs-7-1-lakh-11098751.html
+
 https://www.moneycontrol.com/news/business/stocks/buy-tata-motors-target-of-rs-743-kr-choksey-11080811.html
 
 **Project Structure**
